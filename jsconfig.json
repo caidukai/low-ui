@@ -1,0 +1,14 @@
+{
+  "types": [
+    // ...
+    "@pinia/nuxt"
+  ],
+  "compilerOptions":{
+    "baseUrl":"./",
+    "paths":{
+        "@/*":[
+            "/*"
+        ]
+    }
+  }
+}
